@@ -1,7 +1,11 @@
+plugins {
+    id("com.android.library")
+    kotlin("android")
+    id("com.lagradost.cloudstream3.gradle")
+}
+
 cloudstream {
-    language = "id"
-    description = "AniChin Anime Provider"
     authors = listOf("Arjuna")
+    language = "id"
     status = 1
-    tvTypes = listOf("Anime")
 }
