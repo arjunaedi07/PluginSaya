@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anichin">
+
+    <application>
+        <meta-data
+            android:name="com.lagradost.cloudstream3.plugins"
+            android:value="true" />
+    </application>
+
+</manifest>
