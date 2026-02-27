@@ -1,0 +1,8 @@
+{
+  "name": "Arjuna Extensions",
+  "description": "Cloudstream Anime Extensions",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/arjunaedi07/PluginSaya/builds/plugins.json"
+  ]
+}
