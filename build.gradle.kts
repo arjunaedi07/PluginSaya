@@ -12,6 +12,10 @@ buildscript {
     }
 }
 
+rootProject.name = "CloudstreamPlugins"
+
+include(":AniChin")
+
 plugins {
     id("com.android.library") apply false
     kotlin("android") apply false
