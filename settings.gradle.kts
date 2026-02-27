@@ -8,6 +8,8 @@ File(rootDir, ".").eachDir { dir ->
     }
 }
 
+include(":AniChin")
+
 fun File.eachDir(block: (File) -> Unit) {
     listFiles()?.filter { it.isDirectory }?.forEach { block(it) }
 }
