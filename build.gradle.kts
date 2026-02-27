@@ -12,6 +12,13 @@ buildscript {
     }
 }
 
+plugins {
+    id("com.android.library") apply false
+    kotlin("android") apply false
+    id("com.lagradost.cloudstream3.gradle") apply false
+}
+
+
 allprojects {
     repositories {
         google()
